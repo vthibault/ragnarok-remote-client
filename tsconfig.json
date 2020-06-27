@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "outDir": "dist/",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "types": ["node", "webpack-env"],
+    "typeRoots": ["typings"],
+    "baseUrl": "src/"
+  },
+  "include": ["src/index.ts"],
+  "exclude": ["node_modules", "dist", "webpack.config.js"]
+}
